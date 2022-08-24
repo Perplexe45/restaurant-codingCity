@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed {
+    font-family: 'Redressed',cursive;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url('/assets/img/banniere2.jpg')
+    center center fixed no-repeat;
+    background-size: cover; /*L'image prend tout l'espace*/
+    height: 900px;
+}
+
+.banner .banner-description {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.merriweather{
+    font-family: 'Merriweather',serif;
+}
+
+.alain-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: Merriweather, serif;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255,0.54);
+    z-index: 99; /*Valeur très grande pour que le menu soit toujours visible*/
+}
+
+.alain-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease
+}
+
+.alain-navbar .nav-link:hover {
+    padding-bottom: 10px;
+    border-color: var(--bs-teal);
+}
+
+.btn-order {
+    color: var(--bs-teal); /*Couleur native de BT*/
+    border-color: var(--bs-teal);
+    transition: .5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color:var(--bs-teal) ;
+}
+
