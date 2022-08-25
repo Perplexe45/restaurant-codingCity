@@ -4,11 +4,22 @@
     font-family: 'Redressed',cursive;
 }
 
-.banner {
+.banner, 
+.order-form { /*Parallax --> Défilement sur une image de fond*/
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url('/assets/img/banniere2.jpg')
-    center center fixed no-repeat;
+    center fixed no-repeat;
     background-size: cover; /*L'image prend tout l'espace*/
     height: 900px;
+}
+
+.order-form { /*On diminuse la taille de l'image car trop haute*/
+    height: 500px;
+}
+
+.deuxieme-menu {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url('/assets/img/banniere5.jpg');
+    height: 1200px;
+    background-size: cover; /*L'image prend tout l'espace*/
 }
 
 .banner .banner-description {
